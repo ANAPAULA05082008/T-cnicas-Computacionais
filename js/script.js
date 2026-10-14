@@ -41,16 +41,11 @@ function mostraResultado(){
     caixaPerguntas.textContent = "Em 2049...";
     textoResultado.textContent = historiaFinal;
     caixaAlternativas.textContent = ""; 
-    function mostraResultado() {
-        caixaPerguntas.textContent = "Em 2049...";
-        textoResultado.textContent = historiaFinal;
-        caixaAlternativas.textContent = "";
+    botaoJogarNovamente.addEventListener("CLICK", jogaNovamente();)
+
 
 }
-function aleatorio (lista){
-        const posicao = Math.floor(Math.random()* lista.length);
-        return lista[posicao];
-}
+
 function jogaNovamente(){
         atual = 0;
         historiaFinal = "";
