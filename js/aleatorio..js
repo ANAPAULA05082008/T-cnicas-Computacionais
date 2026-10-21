@@ -1,4 +1,4 @@
 function aleatorio (lista){
-        const posicao = Math.floor(Math.random()* lista.length);
-        return lista[posicao];
+    const posicao = Math.floor(Math.ramdom()*lista.lenght);
+    return lista[posicao];
 }
