@@ -3,7 +3,7 @@ function aleatorio (lista){
     return lista[posicao];
 }
 
-const nomes = ["Fernanda", "Giuliana", "Maria Eduarda", "Marcelo", "Amanda","Gustavo", "Gabriel"];
+const nomes = ["Elvis Presley", "James", "Anne", "Marie", "Priscilla","Lisa Marie", "Lorde"];
 
 export function aleatorio (lista){
     const posicao = Math.floor(Math.random()* lista.length);
